@@ -3,11 +3,8 @@ from kaggle.api.kaggle_api_extended import KaggleApi
 import database
 
 # Set up Kaggle API authentication
-os.environ["KAGGLE_CONFIG_DIR"] = "C:/Users/manoj/Desktop/Market_Research_Project/kaggle.json"  # Make sure to set this correctly
-
-os.environ['KAGGLE_USERNAME'] = 'devdreamer'
-os.environ['KAGGLE_KEY'] = '30b031b92ce0ac6438b83536e7c6b852'
-
+# os.environ["KAGGLE_CONFIG_DIR"] = "C:/Users/manoj/Desktop/Market_Research_Project/kaggle.json"  # Make sure to set this correctly
+# os.environ["KAGGLE_CONFIG_DIR"] = "kaggle.json"
 api = KaggleApi()
 api.authenticate()
 
