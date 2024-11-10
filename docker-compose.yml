@@ -1,0 +1,25 @@
+version: '3.8'
+services:
+  # fastapi:
+  #   build:
+  #     context: .
+  #     dockerfile: Dockerfile.fastapi
+  #   ports:
+  #     - "8000:8000"
+  #   volumes:
+  #     - ./kaggle.json:/root/.kaggle/kaggle.json
+  #   environment:
+  #     - KAGGLE_CONFIG_DIR=/root/.kaggle
+       
+  streamlit:
+    build:
+      context: .
+      dockerfile: Dockerfile.streamlit
+    ports:
+      - "8501:8501"
+    volumes:
+      - ./kaggle.json:/root/.kaggle/kaggle.json
+    environment:
+      - KAGGLE_CONFIG_DIR=/root/.kaggle
+    # depends_on:
+    #   - fastapi

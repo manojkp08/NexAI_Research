@@ -1,0 +1,11 @@
+fastapi
+streamlit
+uvicorn
+pymongo
+langchain
+openai
+cohere
+requests
+beautifulsoup4
+kaggle
+prometheus_client
