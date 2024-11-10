@@ -2,9 +2,10 @@ import os
 from kaggle.api.kaggle_api_extended import KaggleApi
 import database
 
-# Set up Kaggle API authentication
-# os.environ["KAGGLE_CONFIG_DIR"] = "C:/Users/manoj/Desktop/Market_Research_Project/kaggle.json"  # Make sure to set this correctly
-# os.environ["KAGGLE_CONFIG_DIR"] = "kaggle.json"
+# Set environment variables from Streamlit secrets
+os.environ["KAGGLE_USERNAME"] = os.getenv("KAGGLE_USERNAME")
+os.environ["KAGGLE_KEY"] = os.getenv("KAGGLE_KEY")
+
 api = KaggleApi()
 api.authenticate()
 
