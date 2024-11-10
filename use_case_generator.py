@@ -2,7 +2,7 @@ import cohere
 import database
 
 # Set your Cohere API key
-cohere_api_key = "8ZGnSB2jVyq7mNRfAHNCRNcfMacacwv0fTv9KG2R"
+cohere_api_key = "FrfgqMDGk9txAEsUJzSShTvYoEhIB3HGloWsq0SX"
 
 # Initialize the Cohere client
 client = cohere.Client(cohere_api_key)
