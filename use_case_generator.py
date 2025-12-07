@@ -1,8 +1,9 @@
+import os
 import cohere
 import database
 
 # Set your Cohere API key
-cohere_api_key = "FrfgqMDGk9txAEsUJzSShTvYoEhIB3HGloWsq0SX"
+cohere_api_key = os.getenv("COHERE_API_KEY")
 
 # Initialize the Cohere client
 client = cohere.Client(cohere_api_key)
