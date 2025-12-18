@@ -1,4 +1,4 @@
-# 🧠 NexAI Research
+#  NexAI Research
 
 <div align="center">
   <h3>🚀 AI Use Case Generator for Products</h3>
@@ -9,19 +9,19 @@
 
 ## ✨ Features
 
-- 🤖 **AI-Powered Use Cases**: Generate innovative AI implementation ideas for existing products
-- 📊 **Market Research**: Analyze potential applications in your industry
-- 🔍 **Dataset Discovery**: Find relevant datasets via Kaggle API integration
-- 🌐 **Company Analysis**: Automatic information retrieval via web scraping
-- 📝 **Use Case Documentation**: Well-structured AI implementation suggestions
+-  **AI-Powered Use Cases**: Generate innovative AI implementation ideas for existing products
+-  **Market Research**: Analyze potential applications in your industry
+-  **Dataset Discovery**: Find relevant datasets via Kaggle API integration
+-  **Company Analysis**: Automatic information retrieval via web scraping
+-  **Use Case Documentation**: Well-structured AI implementation suggestions
 
 ## 🛠️ Tech Stack
 
-- 🐍 Python
-- 🧠 Cohere API (AI use case generation)
-- 📊 Streamlit (UI)
-- 📁 Kaggle API (dataset discovery)
-- 🔍 BeautifulSoup4 (web scraping)
+- Python
+- Cohere API (AI use case generation)
+- Streamlit (UI)
+- Kaggle API (dataset discovery)
+- BeautifulSoup4 (web scraping)
 
 ## 📷 Screenshorts
 ![Screenshot from 2025-04-13 22-27-13](https://github.com/user-attachments/assets/ed7b772d-ac71-4062-8400-3f65f7cd2682)
@@ -29,7 +29,7 @@
 ![Screenshot from 2025-04-13 22-38-56](https://github.com/user-attachments/assets/1508ab57-dd40-4707-88bc-918bef43f97b)
 ![Screenshot from 2025-04-13 22-39-01](https://github.com/user-attachments/assets/7378d7cf-33b8-4ac0-8713-ded91f17861c)
 
-## 📥 Installation
+##  Installation
 
 ```bash
 # Clone the repository
@@ -44,7 +44,7 @@ cp .env.example .env
 # Edit .env with your API keys
 ```
 
-## ⚙️ Configuration
+##  Configuration
 
 Before running the tool, update the following in your `.env` file:
 
@@ -54,14 +54,14 @@ KAGGLE_USERNAME=your_kaggle_username
 KAGGLE_KEY=your_kaggle_key
 ```
 
-## 🚀 Usage
+## Usage
 
 ```bash
 # Start the Streamlit interface
 streamlit run app.py
 ```
 
-## 📋 How It Works
+##  How It Works
 
 1. **Input Company Information**: Enter your company name and product details
 2. **AI Analysis**: The system analyzes your product through Cohere API
@@ -87,7 +87,7 @@ NEXAI_RESEARCH/
 └── use_case_generator.py
 ```
 
-## 🔍 Key Components
+## Key Components
 
 - **app.py**: Main Streamlit application interface
 - **research_agent.py**: Core AI research orchestration
@@ -95,7 +95,7 @@ NEXAI_RESEARCH/
 - **dataset_finder.py**: Kaggle dataset discovery module
 - **database.py**: Data storage and retrieval
 
-## 📊 Use Case Examples
+## Use Case Examples
 
 - **Predictive Maintenance**: AI monitoring of equipment to predict failures
 - **Customer Segmentation**: Advanced clustering for targeted marketing
